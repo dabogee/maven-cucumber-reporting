@@ -17,13 +17,14 @@
         <repository>
             <id>central</id>
             <name>prosper-auto</name>
-            <url>http://artifactory.prosper.com/artifactory/auto-release</url>
+            <url>https://artifactory.prosper.com/artifactory/plugins-release</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>auto-plugins-snapshots</id>
             <name>prosper-auto</name>
-            <url>http://artifactory.prosper.com/artifactory/auto-snapshot</url>
+            <url>https://artifactory.prosper.com/artifactory/plugins-snapshot</url>
         </snapshotRepository>
+
     </distributionManagement>
 
     <scm>
